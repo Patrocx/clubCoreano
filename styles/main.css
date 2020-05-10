@@ -253,7 +253,7 @@ nav .logo img {
 
 .presentation.secondary .contenido2 p {
   font-size: 1.2rem;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 .presentation.secondary .contenido2 ul li {
@@ -262,6 +262,10 @@ nav .logo img {
   text-align: center;
   border-bottom: 2px solid #122238;
   padding: 1vw;
+}
+
+.presentation.secondary .contenido2 ul li:first-child {
+  border-top: 2px solid #122238;
 }
 
 .presentation.secondary .contenido2 .logo {
