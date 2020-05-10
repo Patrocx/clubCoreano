@@ -156,7 +156,7 @@ nav {
     }
     p{
       font-size: 1.2rem;
-      margin-bottom: 10vh;
+      margin-bottom: 5vh;
     }
     ul li{
       margin: 2vw;
@@ -164,6 +164,9 @@ nav {
       text-align: center;
       border-bottom: 2px solid $color-principal;
       padding: 1vw;
+    }
+    ul li:first-child {
+      border-top: 2px solid $color-principal;
     }
     .logo {
       display: flex;
